@@ -1,0 +1,61 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    font-family: "Sen", sans-serif;
+}
+.box{
+    width: 15%;
+    background-color:#AAEBFF;
+    height:150vh;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+.hlogo{
+    width:80%;
+    margin-top:20%;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+li{
+    padding:25px;
+}
+li:hover{
+    background-color: #FFD550;
+    transition: 0.6s;
+}
+.box1{
+    width: 85%;
+    height:150vh;
+}
+.boxCours{
+    width: 90%;
+    height: 150vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    margin:5px auto;
+}
+.cours{ 
+    background-color: #F3FCFF;
+    width: 20%;
+    height: 20%;
+    padding:25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin:25px;
+    border: solid 1px #A7BEC6;
+    border-radius: 15px;
+}
+.cours:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.204);
+    transition: 0.1s;
+}
+.cours img{
+     width: 100px;
+}
